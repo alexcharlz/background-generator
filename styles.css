@@ -1,0 +1,41 @@
+*{
+ margin:0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: gabriola;
+}
+
+
+body{
+    width:100%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient(to right, #FF0000, #00FF00);
+}
+
+h1{
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+h2{ 
+    margin-top:10px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size:.7rem;
+}
+
+input{
+    background-color: transparent;
+    border: 0px;
+}
